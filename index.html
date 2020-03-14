@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>320 Pyetje mbi Gjeografinë</title>
+    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="./vendors/jquery/jquery.js"></script>
+    <script src="./vendors/bootstrap/js/bootstrap.min.js"> </script>
+
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+    <!-- Scrollbar Custom CSS -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav id="sidebar">
+
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <br />
+                <h3>320 Pyetje mbi Gjeografinë </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#entrySubmenu" class="dropdown-toggle" data-toggle="collapse"
+                        aria-expanded="false">Hyrje</a>
+                    <ul class="collapse list-unstyled" id="entrySubmenu">
+                        <li>
+                            <a href="#">Shënim</a>
+                        </li>
+                        <li>
+                            <a href="#">Parathënie</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#homeSubmenu" class="dropdown-toggle" data-toggle="collapse" aria-expanded="false">Pjesa e
+                        Parë</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">I - Harta dhe Orientimi</a>
+                        </li>
+                        <li>
+                            <a href="#">II - Udhëtarë të mëdhenj</a>
+                        </li>
+                        <li>
+                            <a href="#">III - Forma e sipërfaqes së tokës</a>
+                        </li>
+                        <li>
+                            <a href="#">IV - Ujërat</a>
+                        </li>
+                        <li>
+                            <a href="#">V – Oqeani Botëror</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Përmbajtja</span>
+                    </button>
+
+                    <h1><b>320 pyetje mbi Gjeografinë</b></h1>
+
+                </div>
+            </nav>
+
+            <div class="modal-dialog" id="loading-modal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Duke ngarkuar pyetjet...</h5>
+                    </div>
+                    <div class="loader">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Dark overlay element -->
+    <div class="overlay"></div>
+
+    <script>
+
+        var bulbSection = "<p> <i class='fas fa-lightbulb' style='color:#7386d5;'></i>. Shih përgjigjen </p>";
+        var pageContent = $('#content');
+        var contentString = "";
+
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                // hide sidebar
+                $('#sidebar').removeClass('active');
+                // hide overlay
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                // open sidebar
+                $('#sidebar').addClass('active');
+                // fade in the overlay
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+
+        // Leximi i permbajtjes dhe ndertimi i pyetjeve
+        function createContentAsync() {
+            return Promise.resolve().then(v => {
+                createContent();
+            });
+        }
+
+        function createQuestionDiv(question) {
+            var questionNumber = question.Nr;
+            var rating = question.Vleresimi;
+            var questionText = question.Pyetja;
+            var responseText = question.Pergjigja;
+            var questionId = 'answer-' + questionNumber;
+
+            var questionContent = "<p class='question'>" +
+                "<b>" + questionNumber + "</b>. " + questionText +
+                "</p>";
+
+            var refElementContent = "<a href='#" + questionId + "' aria-controls='" + questionId + "' data-toggle='collapse' aria-expanded='false'>"
+                + bulbSection
+                + "</a>"
+
+            var fooDiv = "<div id='" + questionId + "' class='collapse'>"
+                + "<div class='card card-body'>"
+                + "<i>" + responseText + "</i>"
+                + "</div>"
+                + "</div>"
+
+
+            var questionDiv = "<div>"
+                + questionContent
+                + refElementContent
+                + fooDiv
+                + "</div>";
+
+            contentString += questionDiv;
+            //pageContent.append(questionDiv);
+        }
+
+
+        function createContent() {
+            var dataContent;
+
+            var locaCacheData = localStorage.getItem("dataCache");
+
+            if (locaCacheData != null)
+                dataContent = JSON.parse(localStorage.getItem("dataCache"));
+            else
+                $.getJSON('./data/320-pyetje-mbi-gjeografine.json', function (content) {
+                    localStorage.setItem("dataCache", JSON.stringify(content));
+                    dataContent = JSON.parse(content);
+                });
+
+            dataContent.Permbajtja.forEach(element => {
+                element.Kapitujt.forEach(chapter => {
+                    chapter.Pyetjet.forEach(question => {
+                        createQuestionDiv(question);
+                    });
+                });
+            });
+
+            pageContent.append(contentString);
+
+        }
+
+
+        $(window).on('load', function () {
+            var loadingDiv = $('#loading-modal');
+
+            loadingDiv.show();
+            setTimeout(async () => {
+                await createContentAsync();
+                loadingDiv.hide();
+            }, 5000);
+
+        });
+    </script>
+</body>
+
+</html>
