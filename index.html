@@ -72,6 +72,7 @@
                         <li>
                             <a href="#">IV - Ujërat</a>
                         </li>
+
                         <li>
                             <a href="#">V – Oqeani Botëror</a>
                         </li>
@@ -184,28 +185,18 @@
 
 
         function createContent() {
-            var dataContent;
 
-            var locaCacheData = localStorage.getItem("dataCache");
-
-            if (locaCacheData != null)
-                dataContent = JSON.parse(localStorage.getItem("dataCache"));
-            else
-                $.getJSON('./data/320-pyetje-mbi-gjeografine.json', function (content) {
-                    localStorage.setItem("dataCache", JSON.stringify(content));
-                    dataContent = JSON.parse(content);
-                });
-
-            dataContent.Permbajtja.forEach(element => {
-                element.Kapitujt.forEach(chapter => {
-                    chapter.Pyetjet.forEach(question => {
-                        createQuestionDiv(question);
+            $.getJSON('./data/320-pyetje-mbi-gjeografine.json', function (content) {
+                content.Permbajtja.forEach(element => {
+                    element.Kapitujt.forEach(chapter => {
+                        chapter.Pyetjet.forEach(question => {
+                            createQuestionDiv(question);
+                        });
                     });
                 });
+                
+                pageContent.append(contentString);
             });
-
-            pageContent.append(contentString);
-
         }
 
 
