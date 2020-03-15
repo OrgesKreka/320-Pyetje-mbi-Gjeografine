@@ -6,6 +6,10 @@ body{
   padding: 10px;
 }
 
+#book-content{
+  padding-top: 20x;
+}
+
 p {
     /* font-family:  sans-serif; */
     font-size: 1.1em;
@@ -54,9 +58,14 @@ a:focus {
 #sidebar {
     width: 250px;
     position: fixed;
-    top: 0;
+    padding-top: 5%; /*Vlere hardcode-it*/
+    overflow-x: hidden;
+    display: block;
+    z-index: 1;
+    left: 0;
+    margin: auto;
     left: -250px;
-    height: 100vh;
+    height:100vh; 
     z-index: 999;
     background: #7386D5;
     color: #fff;
@@ -64,6 +73,10 @@ a:focus {
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 800px) {
+  #sidebar{padding-top: 50%;}
+  }
 
 #sidebar.active {
     left: 0;

@@ -12,10 +12,10 @@
     <script src="./vendors/jquery/jquery.js"></script>
     <script src="./vendors/bootstrap/js/bootstrap.min.js"> </script>
     <link rel="stylesheet" href="./vendors/font-awesome/all.min.css" />
-    <script src="./vendors/font-awesome/all.min.js"></script> 
+    <script src="./vendors/font-awesome/all.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
- 
+
 
     <!-- Scrollbar Custom CSS -->
     <script
@@ -27,64 +27,9 @@
 <body>
     <div class="wrapper">
 
-        <!-- Sidebar -->
-        <nav id="sidebar">
-
-            <div id="dismiss">
-                <i class="fas fa-arrow-left"></i>
-            </div>
-
-            <div class="sidebar-header">
-                <br />
-                <h3>320 Pyetje mbi Gjeografinë </h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="#entrySubmenu" class="dropdown-toggle" data-toggle="collapse"
-                        aria-expanded="false">Hyrje</a>
-                    <ul class="collapse list-unstyled" id="entrySubmenu">
-                        <li>
-                            <a href="#">Shënim</a>
-                        </li>
-                        <li>
-                            <a href="#">Parathënie</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#homeSubmenu" class="dropdown-toggle" data-toggle="collapse" aria-expanded="false">Pjesa e
-                        Parë</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">I - Harta dhe Orientimi</a>
-                        </li>
-                        <li>
-                            <a href="#">II - Udhëtarë të mëdhenj</a>
-                        </li>
-                        <li>
-                            <a href="#">III - Forma e sipërfaqes së tokës</a>
-                        </li>
-                        <li>
-                            <a href="#">IV - Ujërat</a>
-                        </li>
-
-                        <li>
-                            <a href="#">V – Oqeani Botëror</a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-        </nav>
-
         <!-- Page Content -->
         <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
 
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
@@ -96,12 +41,19 @@
 
                     <div class="d-flex flex-row order-2 order-lg-3">
                         <ul class="navbar-nav flex-row">
-                            <li class="nav-item"><a class="nav-link px-2" href="https://github.com/OrgesKreka/320-Pyetje-mbi-Gjeografine" target="_blank" title="Projekti në Github"><span class="fab fa-github"></span></a></li>
-                            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/orges.kreka" target="_blank" title="Profili im në facebook"><span class="fab fa-facebook"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-2"
+                                    href="https://github.com/OrgesKreka/320-Pyetje-mbi-Gjeografine" target="_blank"
+                                    title="Projekti në Github"><span class="fab fa-github"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/orges.kreka"
+                                    target="_blank" title="Profili im në facebook"><span
+                                        class="fab fa-facebook"></span></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
+            <br />
+            <br />
 
             <div class="modal-dialog" id="loading-modal" role="document">
                 <div class="modal-content">
@@ -111,9 +63,41 @@
                     <div class="loader">Loading...</div>
                 </div>
             </div>
+
+            <br />
+
+            <div id="book-content"> </div>
         </div>
 
-    </div>
+        <!-- Sidebar -->
+        <div class="bg-light border-right p-2">
+            <nav id="sidebar" class="navbar justify-content-sm-start">
+
+                <div id="dismiss">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+
+                <div class="sidebar-header">
+                    <br />
+                    <h3>320 Pyetje mbi Gjeografinë </h3>
+                </div>
+
+                <ul class="list-unstyled components sidebar-content">
+                    <li class="active">
+                        <a href="#entrySubmenu" class="dropdown-toggle" data-toggle="collapse"
+                            aria-expanded="false">Hyrje</a>
+                        <ul class="collapse list-unstyled" id="entrySubmenu">
+                            <li>
+                                <a href="#">Shënim</a>
+                            </li>
+                            <li>
+                                <a href="#parathenie">Parathënie</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <!-- Dark overlay element -->
@@ -122,8 +106,9 @@
     <script>
 
         var bulbSection = "<p> <i class='fas fa-lightbulb' style='color:#7386d5;'></i>. Shih përgjigjen </p>";
-        var pageContent = $('#content');
+        var pageContent = $('#book-content');
         var contentString = "";
+
 
         $(document).ready(function () {
             $("#sidebar").mCustomScrollbar({
@@ -166,47 +151,47 @@
             var badgeClass = ''
             var imageDiv = '';
 
-            if(questionNumber == 262 ){
+            if (questionNumber == 262) {
                 var responseTable = createTableResponse(JSON.parse(responseText).Pergjigja262);
                 responseText = responseTable.outerHTML;
                 tableClass = 'table-responsive-sm';
-            }else{
+            } else {
                 tableClass = '';
             }
 
-            switch(rating){
+            switch (rating) {
                 case 1:
                     badgeClass = 'badge badge-success';
-                break;
+                    break;
                 case 2:
                     badgeClass = 'badge badge-warning';
-                break;
+                    break;
                 case 3:
                     badgeClass = 'badge badge-danger';
-                break;
+                    break;
             }
 
-            if(imagePath != null && imagePath.length > 0 ){
+            if (imagePath != null && imagePath.length > 0) {
                 var figureCaption = imagePath.match(captionRegex);
 
-                imageDiv = 
-                  "<div>"
-                + "<figure>"
-                + "<img src='"+ imagePath +"' class='img-fluid' alt='' width='400' height='500' />"
-                + "<figcaption><i> "+ figureCaption[0] + "</i></figcaption>"
-                + "</figure>"
-                + "</div>"
-                + "<br />";
+                imageDiv =
+                    "<div>"
+                    + "<figure>"
+                    + "<img src='" + imagePath + "' class='img-fluid' alt='' width='400' height='500' />"
+                    + "<figcaption><i> " + figureCaption[0] + "</i></figcaption>"
+                    + "</figure>"
+                    + "</div>"
+                    + "<br />";
             }
-            else{
+            else {
                 imageDiv = '';
             }
 
 
             var questionContent = "<p class='question'> " +
-                "<span class='" + badgeClass + "'> " + 
+                "<span class='" + badgeClass + "'> " +
                 "<b>" + questionNumber + "</b>. " +
-                "</span> "+ 
+                "</span> " +
                 questionText +
                 "</p>" +
                 imageDiv;
@@ -232,36 +217,36 @@
             contentString += questionDiv;
         }
 
-        function createTableResponse( jsonResponse ){
-            
+        function createTableResponse(jsonResponse) {
+
             // Extract value for html header.
             var header = [];
-            for(var i = 0; i < jsonResponse.length; i++ ){
-                for(var key in jsonResponse[i]){
-                    if(header.indexOf(key) === -1 )
-                     header.push(key);
+            for (var i = 0; i < jsonResponse.length; i++) {
+                for (var key in jsonResponse[i]) {
+                    if (header.indexOf(key) === -1)
+                        header.push(key);
                 }
             }
 
             // Create dynamic table
             var table = document.createElement("table");
-            table.setAttribute('class','table');
+            table.setAttribute('class', 'table');
             // Adding the header rows to created table
             var tr = table.insertRow(-1);
 
-            for(var i = 0; i < header.length; i++ ){
+            for (var i = 0; i < header.length; i++) {
                 var th = document.createElement("th");
                 th.innerHTML = header[i];
                 tr.appendChild(th);
             }
 
             // Add json data as table rows
-            for(var i = 0; i < jsonResponse.length; i++ ){
-                tr = table.insertRow( -1 );
+            for (var i = 0; i < jsonResponse.length; i++) {
+                tr = table.insertRow(-1);
 
-                for( var j = 0; j < header.length; j++ ){
-                    
-                    var tableCell = tr.insertCell( -1 );
+                for (var j = 0; j < header.length; j++) {
+
+                    var tableCell = tr.insertCell(-1);
                     tableCell.innerHTML = jsonResponse[i][header[j]];
                 }
             }
@@ -274,31 +259,50 @@
 
             $.getJSON('./data/320-pyetje-mbi-gjeografine.json', function (content) {
 
-                contentString =   "<div class='card mb-3'>"
-                                + "<div class='row no-gutters'>"
-                                + "<div class='col-md-4'>"
-                                + "<center class='book-cover'><img src='./resources/images/libri.jpg' class='img-fluid center-block' width='600' height='800'></center>"
-                                + "</div>"
-                                + "<div class='col-md-8'>"
-                                + "<div class='card-body'>"
-                                + "<h5 class='card-title'> <b>Parathënie </b> </h5>"
-                                + "<p class='card-text'>" + content.Parathenie + "</p>"
-                                + "</div>"
-                                + "</div>"
-                                + "</div>"
-                                + "</div>"
-                                + "<br />"
-                                + "</br>";
+                contentString = "<div id='parathenie' class='card mb-3'>"
+                    + "<div class='row no-gutters'>"
+                    + "<div class='col-md-4'>"
+                    + "<center class='book-cover'><img src='./resources/images/libri.jpg' class='img-fluid center-block' width='600' height='800'></center>"
+                    + "</div>"
+                    + "<div class='col-md-8'>"
+                    + "<div class='card-body'>"
+                    + "<h5 class='card-title'> <span class='badge badge-danger'><b>Parathënie </b></span></h5>"
+                    + "<p class='card-text'>" + content.Parathenie + "</p>"
+                    + "</div>"
+                    + "</div>"
+                    + "</div>"
+                    + "</div>"
+                    + "<br />"
+                    + "</br>";
 
-
+                var sidebarContent = '';
+                var partId = 1;
                 content.Permbajtja.forEach(element => {
+                    
+                    var foo = '<li>'
+                            + "<a href='#pjesa" + partId + "' class='dropdown-toggle' data-toggle='collapse' aria-expanded='false'>" + element.Pjesa + "</a>"
+                            + "<ul class='collapse list-unstyled' id='pjesa" + partId + "'>";
+                    
+                    partId++;
+
                     element.Kapitujt.forEach(chapter => {
+
+                        foo += "<li>"
+                            + "<a href='#'>" + chapter.Kapitulli + "</a>";
+                            + "</li>";
+
                         chapter.Pyetjet.forEach(question => {
                             createQuestionDiv(question);
                         });
                     });
+
+                    foo += "</ul>";
+                    foo +="</li>";
+
+                    sidebarContent += foo;
                 });
-                
+
+                $('.sidebar-content').append(sidebarContent);
                 pageContent.append(contentString);
             });
         }

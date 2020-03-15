@@ -662,14 +662,14 @@
                   {
                     "Nr": 88,
                     "Vleresimi": 1,
-                    "VendodhjaImazhit": "./resources/images/figura-1-GadishulliApenin-Sicilia.png",
+                    "VendodhjaImazhit": "./resources/images/figura-1-GadishulliApenin-Sicilia.PNG",
                     "Pyetja": "Cili gadishull e ishull është paraqitur në figurën 1 ?",
                     "Pergjigja": "Gadishulli i Apeninëve dhe ishulli i Sicilisë."
                   },
                   {
                     "Nr": 89,
                     "Vleresimi": 1,
-                    "VendodhjaImazhit": "./resources/images/figura-2-Sicilia.png",
+                    "VendodhjaImazhit": "./resources/images/figura-2-Sicilia.PNG",
                     "Pyetja": "Cili ishull është paraqitur në figurën 2 ?",
                     "Pergjigja": "Sicilia."
                   },
@@ -745,7 +745,7 @@
                    {
                       "Nr":99,
                       "Vleresimi":1,
-                      "VendodhjaImazhit":"./resources/images/figura-5-Sumatra.png",
+                      "VendodhjaImazhit":"./resources/images/figura-5-Sumatra.PNG",
                       "Pyetja":"Cili ishull është paraqitur në figurën 5 ?",
                       "Pergjigja":"Sumatra."
                    },
@@ -800,7 +800,7 @@
                    {
                       "Nr":106,
                       "Vleresimi":1,
-                      "VendodhjaImazhit":"./resources/images/figura-7-Madagaskari.png",
+                      "VendodhjaImazhit":"./resources/images/figura-7-Madagaskari.PNG",
                       "Pyetja":"Cili është ishulli i paraqitur në figurën 7 ?",
                       "Pergjigja":"Madagaskari."
                    },
@@ -939,7 +939,7 @@
                    {
                       "Nr":125,
                       "Vleresimi":1,
-                      "VendodhjaImazhit":"./resources/images/figura-8-Kuba.png",
+                      "VendodhjaImazhit":"./resources/images/figura-8-Kuba.PNG",
                       "Pyetja":"Cili ishull është paraqitur në figurën 8 ?",
                       "Pergjigja":"Kuba."
                    },
