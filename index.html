@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./vendors/font-awesome/all.min.css" />
     <script src="./vendors/font-awesome/all.min.js"></script> 
 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
  
 
     <!-- Scrollbar Custom CSS -->
@@ -187,7 +188,6 @@
 
             if(imagePath != null && imagePath.length > 0 ){
                 var figureCaption = imagePath.match(captionRegex);
-                console.log(figureCaption);
 
                 imageDiv = 
                   "<div>"
@@ -197,8 +197,6 @@
                 + "</figure>"
                 + "</div>"
                 + "<br />";
-                
-                console.log(imageDiv);
             }
             else{
                 imageDiv = '';
@@ -275,6 +273,24 @@
         function createContent() {
 
             $.getJSON('./data/320-pyetje-mbi-gjeografine.json', function (content) {
+
+                contentString =   "<div class='card mb-3'>"
+                                + "<div class='row no-gutters'>"
+                                + "<div class='col-md-4'>"
+                                + "<center class='book-cover'><img src='./resources/images/libri.jpg' class='img-fluid center-block' width='600' height='800'></center>"
+                                + "</div>"
+                                + "<div class='col-md-8'>"
+                                + "<div class='card-body'>"
+                                + "<h5 class='card-title'> <b>Parathënie </b> </h5>"
+                                + "<p class='card-text'>" + content.Parathenie + "</p>"
+                                + "</div>"
+                                + "</div>"
+                                + "</div>"
+                                + "</div>"
+                                + "<br />"
+                                + "</br>";
+
+
                 content.Permbajtja.forEach(element => {
                     element.Kapitujt.forEach(chapter => {
                         chapter.Pyetjet.forEach(question => {
