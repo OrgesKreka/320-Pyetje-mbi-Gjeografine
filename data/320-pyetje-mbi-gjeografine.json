@@ -269,7 +269,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":" Në cilin det nuk mund të mbytesh ? Pse ?",
-                      "Pergjigja":"Në Detin e Vdekur. Uji i këtij deti është shumë i kripur. Kripësia e ujit është 7.5 herë më e madhe se ajo e ujit të deteve të tjera (2203500/00) Uji është aq i dendur dhe i rëndë saqë njeriu qëndron mbi ujë pa u zhytur."
+                      "Pergjigja":"Në Detin e Vdekur. Uji i këtij deti është shumë i kripur. Kripësia e ujit është 7.5 herë më e madhe se ajo e ujit të deteve të tjera (220350 <sup>0</sup>/<sub>00</sub>) Uji është aq i dendur dhe i rëndë saqë njeriu qëndron mbi ujë pa u zhytur."
                    }
                 ]
              },
@@ -343,36 +343,36 @@
                       "Nr":44,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Qyteti i Tiranës ndodhet në 41020’  gjerësi gjeografike veriore (më saktë 410 19’ 31’’ ). Në cilin kënd shihet Ylli Polar nga Tirana ?",
-                      "Pergjigja":"Nën këndin 41020’."
+                      "Pyetja":"Qyteti i Tiranës ndodhet në 41<sup>0</sup> 20’  gjerësi gjeografike veriore (më saktë 41<sup>0</sup> 19’ 31’’ ). Në cilin kënd shihet Ylli Polar nga Tirana ?",
+                      "Pergjigja":"Nën këndin 41<sup>0</sup> 20’."
                    },
                    {
                       "Nr":45,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Në qytetin N. Ylli Polar shihet nën këndin 450  mbi horizont, kurse në qytetin M. Nën këndin 600. Cili nga këto dy qytete ndodhet më në veri se tjetri dhe me sa gradë ?",
-                      "Pergjigja":"Qyteti M. në të cilin Ylli Polar duket nën një kënd prej 600 mbi horizont, ndodhet 150 më në veri se qyteti M."
+                      "Pyetja":"Në qytetin N. Ylli Polar shihet nën këndin 45<sup>0</sup>  mbi horizont, kurse në qytetin M. Nën këndin 60<sup>0</sup>. Cili nga këto dy qytete ndodhet më në veri se tjetri dhe me sa gradë ?",
+                      "Pergjigja":"Qyteti M. në të cilin Ylli Polar duket nën një kënd prej 60<sup>0</sup> mbi horizont, ndodhet 15<sup>0</sup> më në veri se qyteti M."
                    },
                    {
                       "Nr":46,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Qyteti ku banon Erioni ndodhet në 41020’ gjerësi gjeografike veriore. Nën çfarë këndi e sheh Erioni diellin në mesditën e ekuinoksit ?",
-                      "Pergjigja":"Erioni e sheh nën këndin 41020’."
+                      "Pyetja":"Qyteti ku banon Erioni ndodhet në 41<sup>0</sup> 20’ gjerësi gjeografike veriore. Nën çfarë këndi e sheh Erioni diellin në mesditën e ekuinoksit ?",
+                      "Pergjigja":"Erioni e sheh nën këndin 41<sup>0</sup> 20’."
                    },
                    {
                       "Nr":47,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Një grup të rinjsh u ngjitën në Malin e Gjerë i cili ndodhet në jug të Shqipërisë. Në 23 shtator ata mbërritën në një nga lartësitë e malit, që ndodhet në 400 gjerësi gjeografike veriore. Nën çfarë këndi e panë eskursionistët diellin më 23 shtator ? Gjeni në hartë Malin e Gjerë ?",
-                      "Pergjigja":"Nën këndin 500."
+                      "Pergjigja":"Nën këndin 50<sup>o</sup>."
                    },
                    {
                       "Nr":48,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cili është këndi më i madh dhe këndi më i vogël i rënies së rrezeve të diellit në mesditë, në ekuator, në tropik, në rrathët polarë dhe në pole ? Kur arrin dielli në këto vende lartësinë më të madhe ?",
-                      "Pergjigja":"Në ekuator këndi më i madh me të cilin bien rrezet e diellit në mesditë është 900, kurse këndi më i vogël i rënies së rrezeve të tij është 66.50. Në tropik këndi më i madh i rënies së rrezeve të diellit është 900, kurse këndi më i vogël është 430. Në rrathët polare këndi më i madh i rënies së rrezeve të diellit në mesditë është 470,  kurse këndi më i vogël është 00. Në ekuator lartësia më e madhe e diellit vërehet më 23 mars dhe më 23 shtator. Në hemisferën veriore lartësia më e madhe e diellit në tropik, në rrethin polar dhe në pol vërehet në mesditën e 22 qershorit."
+                      "Pergjigja":"Në ekuator këndi më i madh me të cilin bien rrezet e diellit në mesditë është 90<sup>o</sup>, kurse këndi më i vogël i rënies së rrezeve të tij është 66.5<sup>o</sup>. Në tropik këndi më i madh i rënies së rrezeve të diellit është 90<sup>o</sup>, kurse këndi më i vogël është 43<sup>o</sup>. Në rrathët polare këndi më i madh i rënies së rrezeve të diellit në mesditë është 47<sup>o</sup>,  kurse këndi më i vogël është 0<sup>o</sup>. Në ekuator lartësia më e madhe e diellit vërehet më 23 mars dhe më 23 shtator. Në hemisferën veriore lartësia më e madhe e diellit në tropik, në rrethin polar dhe në pol vërehet në mesditën e 22 qershorit."
                    },
                    {
                       "Nr":49,
@@ -399,15 +399,15 @@
                       "Nr":52,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Një qytet ndodhet në 550 gjerësi gjeografike veriore. Sa kilometra është larg ky qytet nga Poli i Veriut dhe nga Poli i Jugut ?",
+                      "Pyetja":"Një qytet ndodhet në 55<sup>o</sup> gjerësi gjeografike veriore. Sa kilometra është larg ky qytet nga Poli i Veriut dhe nga Poli i Jugut ?",
                       "Pergjigja":"8885 kilometra dhe 16.095 km."
                    },
                    {
                       "Nr":53,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Tirana ndodhet rreth 41020’  gjerësi gjeografike veriore dhe rreth 200  gjatësi gjeografike lindore. Ku ndodhet vendi më i largët i botës nga Tirana ?",
-                      "Pergjigja":"Në 410 gjerësi gjeografike jugore e 1600 gjatësi gjeografike perëndimore."
+                      "Pyetja":"Tirana ndodhet rreth 41<sup>o</sup> 20’  gjerësi gjeografike veriore dhe rreth 20<sup>o</sup>  gjatësi gjeografike lindore. Ku ndodhet vendi më i largët i botës nga Tirana ?",
+                      "Pergjigja":"Në 41<sup>o</sup> gjerësi gjeografike jugore e 160<sup>o</sup> gjatësi gjeografike perëndimore."
                    },
                    {
                       "Nr":54,
@@ -421,7 +421,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"A mund të ndodhë që ne të marrim sot një telegram që është dërguar.. nesër ?",
-                      "Pergjigja":"Po, sepse Toka lëviz nga perëndimi në lindje. Si kufi i ndërrimit të datave është pranuar vija që kalon nëpër meridianin 1800. Kur kalojmë këtë kufi, duhet të ndryshojmë datën. Për shembull, kur në Grinuiç është ora 12(mesditë) në meridianin(nga lindja) 1800 është ora 24(mesnatë). Ndryshimi i kohës midis këtyre gjatësive është 24 orë, domethënë një ditë e plotë. Kështu në të njëjtin çast data në Azi është një ditë më e avancuar se sa në Amerikë që ndodhet në perëndim të Grinuiçit. Pra kur në Azi është e hënë, në Amerikë është e diel."
+                      "Pergjigja":"Po, sepse Toka lëviz nga perëndimi në lindje. Si kufi i ndërrimit të datave është pranuar vija që kalon nëpër meridianin 180<sup>o</sup>. Kur kalojmë këtë kufi, duhet të ndryshojmë datën. Për shembull, kur në Grinuiç është ora 12(mesditë) në meridianin(nga lindja) 180<sup>o</sup> është ora 24(mesnatë). Ndryshimi i kohës midis këtyre gjatësive është 24 orë, domethënë një ditë e plotë. Kështu në të njëjtin çast data në Azi është një ditë më e avancuar se sa në Amerikë që ndodhet në perëndim të Grinuiçit. Pra kur në Azi është e hënë, në Amerikë është e diel."
                    },
                    {
                       "Nr":56,
@@ -491,7 +491,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"A e dini adresën e saktë gjeografike të kryeqytetit tonë, të Tiranës ?",
-                      "Pergjigja":"Adresa gjeografike e saktë e kryeqytetit të atdheut tonë Tiranës, është 19048’45’’ gjatësi gjeografike lindore dhe 41019’31’’ gjerësi gjeografike veriore."
+                      "Pergjigja":"Adresa gjeografike e saktë e kryeqytetit të atdheut tonë Tiranës, është 19<sup>o</sup> 48’ 45’’ gjatësi gjeografike lindore dhe 41<sup>o</sup> 19’ 31’’ gjerësi gjeografike veriore."
                    },
                    {
                       "Nr":66,
@@ -690,7 +690,7 @@
                       "Nr":91,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Pika më veriore dhe ajo më jugore e Azisë, ashtu si dhe edhe ato të Afrikës, janë larg njëra-tjetrës më shumë se 700. Pse në Azi nga veriu në jug shtrihen të gjitha zonat natyrore, nga zona polare e gjer tek ajo ekuatoriale,  kurse në Afrikë nuk ndodh kështu ?",
+                      "Pyetja":"Pika më veriore dhe ajo më jugore e Azisë, ashtu si dhe edhe ato të Afrikës, janë larg njëra-tjetrës më shumë se 70<sup>o</sup>. Pse në Azi nga veriu në jug shtrihen të gjitha zonat natyrore, nga zona polare e gjer tek ajo ekuatoriale,  kurse në Afrikë nuk ndodh kështu ?",
                       "Pergjigja":"Në Afrikë ekuatori i kalon mespërmes kurse në Azi pikat më të largëta të kontinentit ndodhen nga një gradë deri në 77 gradë gjerësi gjeografike veriore."
                    },
                    {
@@ -878,7 +878,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Në spanjishte “patagon ” do të thotë “këmbëgjatë”. A e dini nga e ka prejardhjen ky emër ?",
-                      "Pergjigja":"Më 1 prill 1820, kur po afrohej dimri i hemisferës jugore, Magelani vendosi ta kalonte atë në limanin SanRulian, 490 gjerësi gjeografike jugore. Në këtë liman vinin indianë me trup shumë të madh. Ata u quajtën “patagonë” dhe vendi i tyre quhet qysh nga ajo kohë “Patagoni”."
+                      "Pergjigja":"Më 1 prill 1820, kur po afrohej dimri i hemisferës jugore, Magelani vendosi ta kalonte atë në limanin San-Rulian, 49<sup>o</sup>0 gjerësi gjeografike jugore. Në këtë liman vinin indianë me trup shumë të madh. Ata u quajtën “patagonë” dhe vendi i tyre quhet qysh nga ajo kohë “Patagoni”."
                    },
                    {
                       "Nr":117,
@@ -892,7 +892,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Emri i cilit shtet të Amerikës Jugore tregon pozitën e tij gjeografike ?",
-                      "Pergjigja":"Territorin e shtetit të Ekuatorit e përshkon vija imagjinare e ekuatorit. Në periferinë e kryeqytetit të këtij vendi ( qyteti Kuito) është vendosur një shtyllë e gurtë me shënimin 000’0’’ gjerësi."
+                      "Pergjigja":"Territorin e shtetit të Ekuatorit e përshkon vija imagjinare e ekuatorit. Në periferinë e kryeqytetit të këtij vendi ( qyteti Kuito) është vendosur një shtyllë e gurtë me shënimin 0<sup>o</sup> 0’ 0’’ gjerësi."
                    },
                    {
                       "Nr":119,
@@ -1031,7 +1031,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Në Australi jeton një kafshë e çuditshme. Ajo ka një sqep si të rosës, kurse trupin nuk e ka të mbuluar me pupla, por me qime. Të vegjlit e saj dalin nga vezët, por ushqehen me qumështin e nënës. Cila kafshë është kjo ?",
-                      "Pergjigja":"Hundërosa nga familja e oviparëve. (ref: https://en.wikipedia.org/wiki/Platypus  )."
+                      "Pergjigja":"Hundërosa nga familja e oviparëve. ( <a href='https://en.wikipedia.org/wiki/Platypus' target='_blank'>ref</a>  )."
                    }
                 ]
              },
@@ -1093,7 +1093,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Ku dhe kur është regjistruar temperatura më e ulët e ajrit ?",
-                      "Pergjigja":"Në pjesën lindore të Antarktidës, në gusht të vitit 1960 u regjistrua temperatura më e ulët në rruzullin tokësor 88.3 0C."
+                      "Pergjigja":"Në pjesën lindore të Antarktidës, në gusht të vitit 1960 u regjistrua temperatura më e ulët në rruzullin tokësor 88.3 &#8451;."
                    }
                 ]
              }
@@ -1111,7 +1111,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Ku gjendet pika më veriore e ajo më jugore e Shqipërisë ?",
-                      "Pergjigja":"Në Vermosh 42039’ dhe në Konispol 39038’ të gjerësisë gjeografike veriore."
+                      "Pergjigja":"Në Vermosh 42<sup>o</sup> 39’ dhe në Konispol 39<sup>o</sup> 38’ të gjerësisë gjeografike veriore."
                    },
                    {
                       "Nr":147,
@@ -1257,7 +1257,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cila është fusha më e madhe në pjesën malore të territorit ?",
-                      "Pergjigja":"Fusha e Korçës. Kjo fushë është e gjatë 35 kilomera në jugu në veri, e gjerë 16 km nga perëndimi në lindje dhe e ka sipërfaqen rreth 300 km katrorë. Ajo ndodhet në lartësinë mesatare 850 metra mbi nivelin e detit dhe rrethohet nga të gjitha anët prej malesh që bien në mënryë të mprehtë mbi të.     Fusha është rezultat i fundosjeve kuaternare dhe ndodhet në vendin e një liqeni, i cili u zbraz më pas nga Drini i Zi e Devolli. Ajo është një nga fushat më të rëndësishme bujqësore të vendit tonë."
+                      "Pergjigja":"Fusha e Korçës. Kjo fushë është e gjatë 35 kilometra në jugu në veri, e gjerë 16 km nga perëndimi në lindje dhe e ka sipërfaqen rreth 300 km katrorë. Ajo ndodhet në lartësinë mesatare 850 metra mbi nivelin e detit dhe rrethohet nga të gjitha anët prej malesh që bien në mënryë të mprehtë mbi të.     Fusha është rezultat i fundosjeve kuaternare dhe ndodhet në vendin e një liqeni, i cili u zbraz më pas nga Drini i Zi e Devolli. Ajo është një nga fushat më të rëndësishme bujqësore të vendit tonë."
                    },
                    {
                       "Nr":167,
@@ -1333,7 +1333,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Në ç’vend të Shqipërisë janë regjistruar temperaturat minimale absolute dhe sa janë ato ?              ",
-                      "Pergjigja":"Temperaturat minimale absolute janë regjistruar në Voskopojë dhe Sheqeras ( rreth i Korçës ) dhe janë respektivisht 26.6 0 dhe 25.8 0 C."
+                      "Pergjigja":"Temperaturat minimale absolute janë regjistruar në Voskopojë dhe Sheqeras ( rreth i Korçës ) dhe janë respektivisht 26.6 <sup>o</sup> dhe 25.8 &#8451."
                    },
                    {
                       "Nr":177,
@@ -1382,13 +1382,13 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Në ç’vend është regjistruar temperatura maksimale absolute dhe sa është ajo ?",
-                      "Pergjigja":"Temperaturat më të larta në vendin tonë 400 – 42 0 C janë vënë re në mjaft krahina të vendit. Temperatura maksimale absolute ka arritur në 44 0 C në qytetin Stalin. ( Sot Kuçova )."
+                      "Pergjigja":"Temperaturat më të larta në vendin tonë 40<sup>o</sup> – 42 &#8451; janë vënë re në mjaft krahina të vendit. Temperatura maksimale absolute ka arritur në 44 &#8451; në qytetin Stalin. ( Sot Kuçova )."
                    },
                    {
                       "Nr":184,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Amplituda vjetore e temperaturës është ndryshimi midis temperaturës mesatare të muajit më të ftohtë dhe të muajit më të ngrohtë të vitit. Në qytetet e Shqipërisë amplituda vjetore më e madhe është në Kukës: 21.6  0 C ndërsa më e vogla në Himarë: 14.2 o C. Si shpjegohet që Himara ka amplitudën më të vogël, kurse Kukësi amplitudën vjetore më të madhe ?",
+                      "Pyetja":"Amplituda vjetore e temperaturës është ndryshimi midis temperaturës mesatare të muajit më të ftohtë dhe të muajit më të ngrohtë të vitit. Në qytetet e Shqipërisë amplituda vjetore më e madhe është në Kukës: 21.6 &#8451; ndërsa më e vogla në Himarë: 14.2 &#8451;. Si shpjegohet që Himara ka amplitudën më të vogël, kurse Kukësi amplitudën vjetore më të madhe ?",
                       "Pergjigja":"Kjo gjë shpjegohet me afërsinë ose largësinë nga deti."
                    },
                    {
@@ -1458,7 +1458,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cilat janë tiparet dalluese të liqenit të Ohrit ?",
-                      "Pergjigja":"Ky liqen, përveç që është liqeni më i thellë në Shqipëri dhe në Gadishullin Ballkanik ( 284 m ) ka edhe dy tipare të tjera dalluese; tejdukshmërinë e madhe të ujërave të tij dhe regjimin e veçantë të temperaturës. Tejdukshmëria e liqenit të Ohrit është e tillë që disku i bardhë i Sekit duket me sy deri në thellësinë 70 m. Për këtë arsye ky liqen në kohët e vjetra quhej Lychnidus që do të thotë i tejdukshëm. Kjo tejdukshmëri kaq e madhe e ujërave të këtij liqeni lidhet me faktin që ai ushqehet nga shumë burime nëntokësore që i vijnë nga liqeni i Prespës i vendosur më lart gje gjithashtu nga zhvillimi i pakët i mikroorganizmave. Lidhur me regjimin e temperaturës së liqenit të Ohrit dallojmë dy shtresa: një shtresë të sipërme të ngrohtë me trashësi 130 m dhe një shtresë të poshtme të ftohtë. Shtresa e sipërme është e lëvizshme me përzierje vertikale të ujit. Këtu temperatura në verë ngrihet deri në 26 o ndërsa në dimër zbret deri në 5.6 o. Liqeni i Ohrit dallohet edhe se në të rritet një lloj peshku, korani, i njohur për cilësinë e tij të lartë. Për këtë arsye gjatë brigjeve të liqenit janë ngritur dy stacione për rritjen artificiale të tij."
+                      "Pergjigja":"Ky liqen, përveç që është liqeni më i thellë në Shqipëri dhe në Gadishullin Ballkanik ( 284 m ) ka edhe dy tipare të tjera dalluese; tejdukshmërinë e madhe të ujërave të tij dhe regjimin e veçantë të temperaturës. Tejdukshmëria e liqenit të Ohrit është e tillë që disku i bardhë i Sekit duket me sy deri në thellësinë 70 m. Për këtë arsye ky liqen në kohët e vjetra quhej Lychnidus që do të thotë i tejdukshëm. Kjo tejdukshmëri kaq e madhe e ujërave të këtij liqeni lidhet me faktin që ai ushqehet nga shumë burime nëntokësore që i vijnë nga liqeni i Prespës i vendosur më lart gje gjithashtu nga zhvillimi i pakët i mikroorganizmave. Lidhur me regjimin e temperaturës së liqenit të Ohrit dallojmë dy shtresa: një shtresë të sipërme të ngrohtë me trashësi 130 m dhe një shtresë të poshtme të ftohtë. Shtresa e sipërme është e lëvizshme me përzierje vertikale të ujit. Këtu temperatura në verë ngrihet deri në 26 &#8451; ndërsa në dimër zbret deri në 5.6 &#8451;. Liqeni i Ohrit dallohet edhe se në të rritet një lloj peshku, korani, i njohur për cilësinë e tij të lartë. Për këtë arsye gjatë brigjeve të liqenit janë ngritur dy stacione për rritjen artificiale të tij."
                    },
                    {
                       "Nr":194,
@@ -1540,7 +1540,7 @@
                       "Vleresimi":3,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cilat janë ritmet mesatare të rritjes së industrisë në vendin tonë në periudhën 1965-1975 të krahasuara me vendet e tjera ?",
-                      "Pergjigja":"Rritja mesatare vjetore e prodhimit industrial për periudhën e lartpërmendur në vendin tonë të krahasuara më disa vende të tjera paraqiten si më poshtë:."
+                      "Pergjigja":"Rritja mesatare vjetore e prodhimit industrial p\u00EBr periudh\u00EBn e lartp\u00EBrmendur n\u00EB vendin ton\u00EB t\u00EB krahasuara m\u00EB disa vende t\u00EB tjera paraqiten si m\u00EB posht\u00EB:\r\nRPS e Shqip\u00EBris\u00EB:\t 10.8 p\u00EBrqind\r\nR. D. Gjermane:\t\t6.0  >>\r\n\u00C7ekosllovakia:\t\t6.7  >>\r\nHungaria:\t\t6.2  >>\r\nJugosllavia:\t\t7.0  >>\r\nBashkimi Sovjetik:\t7.9  >>\r\nR. F. Gjermane:\t\t3.4 >>\r\nItalia:\t\t\t4.2 >>\r\nFranca: \t\t\t5.0 >>\r\nPasqyra e m\u00EBsip\u00EBrme tregon se ritmet e rritjes s\u00EB prodhimit industrial n\u00EB vendin ton\u00EB jan\u00EB m\u00EB t\u00EB larta se n\u00EB vendet revizioniste e kapitaliste. Kjo \u00EBsht\u00EB rrjedhim i drejt\u00EBsis\u00EB s\u00EB politik\u00EBs s\u00EB PPSH dhe i ep\u00EBrsis\u00EB s\u00EB rendit ton\u00EB socialist mbi at\u00EB kapitalist e revizionist. \u201CFaktet tregojn\u00EB se n\u00EB Shqip\u00EBri ka stabilitet t\u00EB \u00E7mimeve t\u00EB mallrave t\u00EB konsumit t\u00EB gjer\u00EB dhe nuk ka rritje \u00E7mimesh, se n\u00EB Shqip\u00EBri nuk ka inflacion, nuk ka papun\u00EBsi, faktet tregojn\u00EB se n\u00EB Shqip\u00EBri niveli i jetes\u00EBs s\u00EB punonj\u00EBsve vjen duke u ngritur dhe jo duke u ulur, si\u00E7 ndodh n\u00EB vendet kapitaliste dhe revizioniste. Mehmet Shehu \u2013 Raporti mbi planin VI pes\u00EBvje\u00E7ar ( 1976 \u2013 1980 ) Tiran\u00EB, 1976, f.8"
                    },
                    {
                       "Nr":204,
@@ -1971,7 +1971,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Kryeqyteti i cilit shtet ndodhet më në jug nga të gjitha kryeqytetet e botës. Në ç’gjerësi ndodhet ai ?",
-                      "Pergjigja":"Kryeqyteti i Zelandës së Re, Uellingtoni, që ndodhet në 41o3’, gjerësi gjeografike jugore. "
+                      "Pergjigja":"Kryeqyteti i Zelandës së Re, Uellingtoni, që ndodhet në 41<sup>o</sup> 3’, gjerësi gjeografike jugore. "
                    },
                    {
                       "Nr":264,
@@ -1985,7 +1985,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Kryeqyteti i një shteti të Evropës është më veriori nga të gjitha kryeqytetet e botës. Si quhet ky shtet dhe kryeqyteti i tij ? Në ç’gjerësi gjeografike shtrihet kryeqyteti i këtij shteti ?",
-                      "Pergjigja":"Islanda. Rejkjaviku, kryeqyteti i saj, ndodhet në 64o2’, gjerësi gjeografike veriore."
+                      "Pergjigja":"Islanda. Rejkjaviku, kryeqyteti i saj, ndodhet në 64<sup>o</sup> 2’, gjerësi gjeografike veriore."
                    },
                    {
                       "Nr":266,
@@ -2027,7 +2027,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Toka  kryen një rrotullim të plotë rreth boshtit të vet brenda 24 orëve. Si do të qe natyra e tokës, në qoftë se periudha e rrotullimit të saj rreth boshtit të vet do të qe e njëjtë me periudhën e rrotullimit rreth Diellit ( ashtu siç ndodh me planetin Mërkur )?",
-                      "Pergjigja":"Rrotullimi i Tokës rreth boshtit të vet gjatë 24 orëve krijon kushte të përshtatshme për ngrohjen dhe ftohjen e sipërfaqes së Tokës. Faqja e Tokës që rrihet nga dielli gradualisht gjatë ditës ngrohet, kurse gjatë natës ftohet. Periudha e rrotullimit të Mërkurit rreth boshtit të vet është e barabartë me periudhën e rrotullimit rreth Diellit. Mërkuri i kthen Diellit gjithnjë të njëjtën faqe, në të cilën temperatura është mbi 400 o C, ndërsa në faqen tjetër  të ftohtit dhe errësira janë të përjetshme. Në qoftë se Toka do të rrotullohej rreth boshtit të vet ashtu si planeti i Mërkurit edhe natyra e saj do të ishte e njëjtë me natyrën e këtij planeti."
+                      "Pergjigja":"Rrotullimi i Tokës rreth boshtit të vet gjatë 24 orëve krijon kushte të përshtatshme për ngrohjen dhe ftohjen e sipërfaqes së Tokës. Faqja e Tokës që rrihet nga dielli gradualisht gjatë ditës ngrohet, kurse gjatë natës ftohet. Periudha e rrotullimit të Mërkurit rreth boshtit të vet është e barabartë me periudhën e rrotullimit rreth Diellit. Mërkuri i kthen Diellit gjithnjë të njëjtën faqe, në të cilën temperatura është mbi 400 &#8451;, ndërsa në faqen tjetër  të ftohtit dhe errësira janë të përjetshme. Në qoftë se Toka do të rrotullohej rreth boshtit të vet ashtu si planeti i Mërkurit edhe natyra e saj do të ishte e njëjtë me natyrën e këtij planeti."
                    },
                    {
                       "Nr":272,
@@ -2054,8 +2054,8 @@
                       "Nr":275,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Për të kryer një rrotullim rreth ekuatorit duhet të përshkosh 40076 kilometra. Sa kilometra duhen përshkuar për të kryer një rrotullim rreth paralelit 60 o ?",
-                      "Pergjigja":"Gjatësia e paralelit 60 o është sa gjysma e gjatësisë së ekuatorit."
+                      "Pyetja":"Për të kryer një rrotullim rreth ekuatorit duhet të përshkosh 40076 kilometra. Sa kilometra duhen përshkuar për të kryer një rrotullim rreth paralelit 60<sup>o</sup> ?",
+                      "Pergjigja":"Gjatësia e paralelit 60<sup>o</sup> është sa gjysma e gjatësisë së ekuatorit."
                    },
                    {
                       "Nr":276,
@@ -2146,7 +2146,7 @@
                       "Vleresimi":2,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cili është katarakti më i madh në botë ?",
-                      "Pergjigja":"Katarakti i Niagarës në Amerikën Veriore me lartësi 50 m. në çdo sekondë ai derdh 6000 m 3 ujë."
+                      "Pergjigja":"Katarakti i Niagarës në Amerikën Veriore me lartësi 50 m. në çdo sekondë ai derdh 6000 m<sup>3</sup>ujë."
                    },
                    {
                       "Nr":289,
@@ -2202,14 +2202,14 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cila është pika tokësore më veriore e rruzullit tokësor ?",
-                      "Pergjigja":"Kepi Morris Xhesup ( ishulli Grënlandës ) në 88 o 39 ‘"
+                      "Pergjigja":"Kepi Morris Xhesup ( ishulli Grënlandës ) në 88<sup>o</sup 39 ‘"
                    },
                    {
                       "Nr":297,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cila është pika tokësore më jugore e rruzullit tokësor ?",
-                      "Pergjigja":"Poli i Jugut ( 90 o  gjerësi jugore )."
+                      "Pergjigja":"Poli i Jugut ( 90<sup>o</sup  gjerësi jugore )."
                    },
                    {
                       "Nr":298,
@@ -2265,7 +2265,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Moti dhe klima janë dy gjëra që kanë kuptim të ndryshëm. A ka ndonjë vend në botë, në të cilin midis këtyre dy kuptimeve të mos ketë asnjë ndryshim ?",
-                      "Pergjigja":"Në vendet ekuatoriale temperatura gjatë gjithë vitit është 2527 o. Amplitudat ditore e vjetore të temperaturës janë farë të vogla ( 23 o ), shira ka gjatë gjithë vitit, lëkundjet barometrike janë mjaft të rregullta. Kështu që moti i çdo dite është i njëjtë me atë të çdo dite tjetër të vitit. Prandaj në brezin ekuatorial kuptimet e fjalëve mot dhe klimë janë të afërta."
+                      "Pergjigja":"Në vendet ekuatoriale temperatura gjatë gjithë vitit është 25-27<sup>o</sup. Amplitudat ditore e vjetore të temperaturës janë farë të vogla ( 2-3<sup>o</sup ), shira ka gjatë gjithë vitit, lëkundjet barometrike janë mjaft të rregullta. Kështu që moti i çdo dite është i njëjtë me atë të çdo dite tjetër të vitit. Prandaj në brezin ekuatorial kuptimet e fjalëve mot dhe klimë janë të afërta."
                    },
                    {
                       "Nr":306,
@@ -2314,14 +2314,14 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Shkretëtira e Saharasë na duket sikur është një nga vendet më të nxehta të botës. Ndërsa Polin e Veriut ne e përfytyrojmë si vendin e akujve pa fund dhe të ngricave... Dhe ja tek po bëjmë tani një pyetje pak të çuditshme: a mund të ndodh që temperatura në Polin e Veriut të jetë me e lartë se në shkretëtirën e Saharasë ?",
-                      "Pergjigja":"Temperatura në Sahara natën ulet mjaft. Amplituda ditore aty shkon deri në 25 o. Në pjesën veriore të Saharasë, pas një dite mjaft të nxehtë, temperatura natën mund të ulet deri në 8 o C. Ka raste që në akullnajën “Poli i Veriut 1 ”temperatura në qershor ngrihet mbi zero. Pra ndodh që në të njëjtën kohë në Polin e Veriut temperatura e ajrit të jetë më e lartë se në Sahara."
+                      "Pergjigja":"Temperatura në Sahara natën ulet mjaft. Amplituda ditore aty shkon deri në 25<sup>o</sup. Në pjesën veriore të Saharasë, pas një dite mjaft të nxehtë, temperatura natën mund të ulet deri në -8&#8451;. Ka raste që në akullnajën “Poli i Veriut 1 ”temperatura në qershor ngrihet mbi zero. Pra ndodh që në të njëjtën kohë në Polin e Veriut temperatura e ajrit të jetë më e lartë se në Sahara."
                    },
                    {
                       "Nr":313,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Në romanin e njohur “80 ditë rreth botës” të Zhyl Vernit, Fileas Fogu kreu për 80 ditë një udhëtim rreth botës. Ai i llogariste me saktësi dhe kujdes ditët e fluturimit të vet, por megjithatë gaboi. Thonë se ai mungoi 79 dhe jo 80 ditë. Ai mund të deklaronte i sigurtë se Dielli lindi dhe perëndoi përpara tij 80 herë me radhë, por “xhentëlmenët e reformklubit” dëshmuan se nga çasti i nisjes së Fogut e deri në çastin që ai shkeli në tokën amtare kaluan gjithsej 79 ditë. Për sa ditë e kreu udhëtimin e vet rreth botës Fogu: për 79, apo 80 ditë ?",
-                      "Pergjigja":"Fogu udhëtoi nga Perëndimi në Lindje. Edhe Toka rrotullohet rreth boshtit të saj po në këtë drejtim; kështu që për Fogun ditët zvogëloheshin nga katër minuta sa herë që ai zhvendosej gjatë udhëtimit të vet një gradë. Duke qenë se rruzulli tokësor është i ndarë në 360 o, për Fogun pa u vënë re pas një rrotullimi të plotë rreth Tokës, koha u zvogëlua me 4 minuta x 360 = 1 440 minuta ose 24 orë. Fogu pa vënë re ndryshimin prej katër minutash të çdi dite pandehte se kishte udhëtuar 80 ditë, ndërsa në të vërtetë udhëtimi i tij kishte zgjatur vetëm 79 ditë."
+                      "Pergjigja":"Fogu udhëtoi nga Perëndimi në Lindje. Edhe Toka rrotullohet rreth boshtit të saj po në këtë drejtim; kështu që për Fogun ditët zvogëloheshin nga katër minuta sa herë që ai zhvendosej gjatë udhëtimit të vet një gradë. Duke qenë se rruzulli tokësor është i ndarë në 360<sup>o</sup>, për Fogun pa u vënë re pas një rrotullimi të plotë rreth Tokës, koha u zvogëlua me 4 minuta x 360 = 1 440 minuta ose 24 orë. Fogu pa vënë re ndryshimin prej katër minutash të çdo dite pandehte se kishte udhëtuar 80 ditë, ndërsa në të vërtetë udhëtimi i tij kishte zgjatur vetëm 79 ditë."
                    },
                    {
                       "Nr":314,
@@ -2335,7 +2335,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cili është deti më i ftohtë dhe deti më i ngrohtë në botë ?",
-                      "Pergjigja":"Detet më të ftohta janë Deti i Rosit dhe Det i Uedellit në Antarktik; për një kohë të gjatë temperatura e ujërave të tyre është nën zero. Deti më i ngrohtë është Deti i Kuq, temperatura e ujërave të të cilit arrin 32 o C."
+                      "Pergjigja":"Detet më të ftohta janë Deti i Rosit dhe Det i Uedellit në Antarktik; për një kohë të gjatë temperatura e ujërave të tyre është nën zero. Deti më i ngrohtë është Deti i Kuq, temperatura e ujërave të të cilit arrin 32&#8451;."
                    },
                    {
                       "Nr":316,
@@ -2349,7 +2349,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Si quheshin anijet me të cilat Magelani kreu udhëtimin e parë historik rreth botës ?",
-                      "Pergjigja":"“Trinidad”, “Viktoria”, “Konsepsion”, “San Antonio”, “SanJago”."
+                      "Pergjigja":"“Trinidad”, “Viktoria”, “Konsepsion”, “San Antonio”, “San-Jago”."
                    },
                    {
                       "Nr":318,
@@ -2369,7 +2369,7 @@
                       "Nr":320,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Mësuesi i gjeografisë ngriti në mësim një nxënës dhe kërkoi që ai t’i tregonte në hartën e botës se ku binte Evropa. – Unë mund t’ju tregoj tri Evropa, - u përgjigj nxënësi  dhe tregoi në hartë ishullin, kepin dhe kontinentin që mbajnë emrin Evropë.  ",
+                      "Pyetja":"Mësuesi i gjeografisë ngriti në mësim një nxënës dhe kërkoi që ai t’i tregonte në hartën e botës se ku binte Evropa. – Unë mund t’ju tregoj tri Evropa, - u përgjigj nxënësi  dhe tregoi në hartë ishullin, kepin dhe kontinentin që mbajnë emrin Evropë.",
                       "Pergjigja":"Ishulli Evropa ndodhet në ngushticën e Mozambikut, në Oqeanin Indian, kepi Evropa ndodhet në jug të gadishullit të Pirenejve."
                    }
                 ]

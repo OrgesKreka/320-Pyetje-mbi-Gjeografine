@@ -11,15 +11,10 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src="./vendors/jquery/jquery.js"></script>
     <script src="./vendors/bootstrap/js/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="./vendors/font-awesome/all.min.css" />
+    <script src="./vendors/font-awesome/all.min.js"></script> 
 
-
-    <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-        crossorigin="anonymous"></script>
+ 
 
     <!-- Scrollbar Custom CSS -->
     <script
@@ -98,6 +93,12 @@
 
                     <h1><b>320 pyetje mbi Gjeografinë</b></h1>
 
+                    <div class="d-flex flex-row order-2 order-lg-3">
+                        <ul class="navbar-nav flex-row">
+                            <li class="nav-item"><a class="nav-link px-2" href="https://github.com/OrgesKreka/320-Pyetje-mbi-Gjeografine" target="_blank" title="Projekti në Github"><span class="fab fa-github"></span></a></li>
+                            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/orges.kreka" target="_blank" title="Profili im në facebook"><span class="fab fa-facebook"></span></a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -153,12 +154,16 @@
         }
 
         function createQuestionDiv(question) {
-            
             var questionNumber = question.Nr;
             var rating = question.Vleresimi;
             var questionText = question.Pyetja;
             var responseText = question.Pergjigja;
             var questionId = 'answer-' + questionNumber;
+
+            if(questionNumber == 262 ){
+                var responseTable = createTableResponse(JSON.parse(responseText).Pergjigja262);
+                responseText = responseTable.outerHTML;
+            }
 
             var questionContent = "<p class='question'>" +
                 "<b>" + questionNumber + "</b>. " + questionText +
@@ -183,7 +188,43 @@
                 + "</div>";
 
             contentString += questionDiv;
+        }
 
+        function createTableResponse( jsonResponse ){
+            
+            // Extract value for html header.
+            var header = [];
+            for(var i = 0; i < jsonResponse.length; i++ ){
+                for(var key in jsonResponse[i]){
+                    if(header.indexOf(key) === -1 )
+                     header.push(key);
+                }
+            }
+
+            // Create dynamic table
+            var table = document.createElement("table");
+            table.setAttribute('class','table');
+            // Adding the header rows to created table
+            var tr = table.insertRow(-1);
+
+            for(var i = 0; i < header.length; i++ ){
+                var th = document.createElement("th");
+                th.innerHTML = header[i];
+                tr.appendChild(th);
+            }
+
+            // Add json data as table rows
+            for(var i = 0; i < jsonResponse.length; i++ ){
+                tr = table.insertRow( -1 );
+
+                for( var j = 0; j < header.length; j++ ){
+                    
+                    var tableCell = tr.insertCell( -1 );
+                    tableCell.innerHTML = jsonResponse[i][header[j]];
+                }
+            }
+
+            return table;
         }
 
 
