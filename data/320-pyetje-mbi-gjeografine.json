@@ -800,7 +800,7 @@
                    {
                       "Nr":106,
                       "Vleresimi":1,
-                      "VendodhjaImazhit":"./resources/images/figura-7-Madagaskari",
+                      "VendodhjaImazhit":"./resources/images/figura-7-Madagaskari.png",
                       "Pyetja":"Cili është ishulli i paraqitur në figurën 7 ?",
                       "Pergjigja":"Madagaskari."
                    },
@@ -953,7 +953,7 @@
                    {
                       "Nr":127,
                       "Vleresimi":1,
-                      "VendodhjaImazhit":"./resources/images/figura10-Grenlanda.PNG",
+                      "VendodhjaImazhit":"./resources/images/figura-10-Grenlanda.PNG",
                       "Pyetja":"Cili ishull është paraqitur në figurën 10 ?",
                       "Pergjigja":"Ishulli i Grënlandës."
                    }
@@ -1956,7 +1956,7 @@
                       "Nr":261,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
-                      "Pyetja":"Shkencëtarët kanë llogaritur se në qershor gjatë 24 orëve, nxehtësia që lëshon dielli në 40 o  gjerësi gjeografike veriore është shumë më e madhe nga nxehtësia që lëshon dielli në ekuator. Si shpjegohet kjo gjë ?",
+                      "Pyetja":"Shkencëtarët kanë llogaritur se në qershor gjatë 24 orëve, nxehtësia që lëshon dielli në 40<sup>o</sup>  gjerësi gjeografike veriore është shumë më e madhe nga nxehtësia që lëshon dielli në ekuator. Si shpjegohet kjo gjë ?",
                       "Pergjigja":"Kjo ndodh nga që në qershor gjatë paralelit 40o dielli gjithnjë është më lart se në ekuator. Veç kësaj në qershor numri i përgjithshëm i orëve me diell gjatë 24 orëve është shumë më i madh se në ekuator."
                    },
                    {
@@ -2202,14 +2202,14 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cila është pika tokësore më veriore e rruzullit tokësor ?",
-                      "Pergjigja":"Kepi Morris Xhesup ( ishulli Grënlandës ) në 88<sup>o</sup 39 ‘"
+                      "Pergjigja":"Kepi Morris Xhesup ( ishulli Grënlandës ) në 88<sup>o</sup>39'"
                    },
                    {
                       "Nr":297,
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Cila është pika tokësore më jugore e rruzullit tokësor ?",
-                      "Pergjigja":"Poli i Jugut ( 90<sup>o</sup  gjerësi jugore )."
+                      "Pergjigja":"Poli i Jugut ( 90<sup>o</sup>  gjerësi jugore )."
                    },
                    {
                       "Nr":298,
@@ -2265,7 +2265,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Moti dhe klima janë dy gjëra që kanë kuptim të ndryshëm. A ka ndonjë vend në botë, në të cilin midis këtyre dy kuptimeve të mos ketë asnjë ndryshim ?",
-                      "Pergjigja":"Në vendet ekuatoriale temperatura gjatë gjithë vitit është 25-27<sup>o</sup. Amplitudat ditore e vjetore të temperaturës janë farë të vogla ( 2-3<sup>o</sup ), shira ka gjatë gjithë vitit, lëkundjet barometrike janë mjaft të rregullta. Kështu që moti i çdo dite është i njëjtë me atë të çdo dite tjetër të vitit. Prandaj në brezin ekuatorial kuptimet e fjalëve mot dhe klimë janë të afërta."
+                      "Pergjigja":"Në vendet ekuatoriale temperatura gjatë gjithë vitit është 25-27<sup>o</sup>. Amplitudat ditore e vjetore të temperaturës janë farë të vogla ( 2-3<sup>o</sup> ), shira ka gjatë gjithë vitit, lëkundjet barometrike janë mjaft të rregullta. Kështu që moti i çdo dite është i njëjtë me atë të çdo dite tjetër të vitit. Prandaj në brezin ekuatorial kuptimet e fjalëve mot dhe klimë janë të afërta."
                    },
                    {
                       "Nr":306,
@@ -2314,7 +2314,7 @@
                       "Vleresimi":1,
                       "VendodhjaImazhit":"",
                       "Pyetja":"Shkretëtira e Saharasë na duket sikur është një nga vendet më të nxehta të botës. Ndërsa Polin e Veriut ne e përfytyrojmë si vendin e akujve pa fund dhe të ngricave... Dhe ja tek po bëjmë tani një pyetje pak të çuditshme: a mund të ndodh që temperatura në Polin e Veriut të jetë me e lartë se në shkretëtirën e Saharasë ?",
-                      "Pergjigja":"Temperatura në Sahara natën ulet mjaft. Amplituda ditore aty shkon deri në 25<sup>o</sup. Në pjesën veriore të Saharasë, pas një dite mjaft të nxehtë, temperatura natën mund të ulet deri në -8&#8451;. Ka raste që në akullnajën “Poli i Veriut 1 ”temperatura në qershor ngrihet mbi zero. Pra ndodh që në të njëjtën kohë në Polin e Veriut temperatura e ajrit të jetë më e lartë se në Sahara."
+                      "Pergjigja":"Temperatura në Sahara natën ulet mjaft. Amplituda ditore aty shkon deri në 25<sup>o</sup>. Në pjesën veriore të Saharasë, pas një dite mjaft të nxehtë, temperatura natën mund të ulet deri në -8&#8451;. Ka raste që në akullnajën “Poli i Veriut 1 ”temperatura në qershor ngrihet mbi zero. Pra ndodh që në të njëjtën kohë në Polin e Veriut temperatura e ajrit të jetë më e lartë se në Sahara."
                    },
                    {
                       "Nr":313,

@@ -158,23 +158,67 @@
             var rating = question.Vleresimi;
             var questionText = question.Pyetja;
             var responseText = question.Pergjigja;
+            var imagePath = question.VendodhjaImazhit;
             var questionId = 'answer-' + questionNumber;
+            var captionRegex = /figura-\d+/gm;
+            var tableClass = ''
+            var badgeClass = ''
+            var imageDiv = '';
 
             if(questionNumber == 262 ){
                 var responseTable = createTableResponse(JSON.parse(responseText).Pergjigja262);
                 responseText = responseTable.outerHTML;
+                tableClass = 'table-responsive-sm';
+            }else{
+                tableClass = '';
             }
 
-            var questionContent = "<p class='question'>" +
-                "<b>" + questionNumber + "</b>. " + questionText +
-                "</p>";
+            switch(rating){
+                case 1:
+                    badgeClass = 'badge badge-success';
+                break;
+                case 2:
+                    badgeClass = 'badge badge-warning';
+                break;
+                case 3:
+                    badgeClass = 'badge badge-danger';
+                break;
+            }
+
+            if(imagePath != null && imagePath.length > 0 ){
+                var figureCaption = imagePath.match(captionRegex);
+                console.log(figureCaption);
+
+                imageDiv = 
+                  "<div>"
+                + "<figure>"
+                + "<img src='"+ imagePath +"' class='img-fluid' alt='' width='400' height='500' />"
+                + "<figcaption><i> "+ figureCaption[0] + "</i></figcaption>"
+                + "</figure>"
+                + "</div>"
+                + "<br />";
+                
+                console.log(imageDiv);
+            }
+            else{
+                imageDiv = '';
+            }
+
+
+            var questionContent = "<p class='question'> " +
+                "<span class='" + badgeClass + "'> " + 
+                "<b>" + questionNumber + "</b>. " +
+                "</span> "+ 
+                questionText +
+                "</p>" +
+                imageDiv;
 
             var refElementContent = "<a href='#" + questionId + "' aria-controls='" + questionId + "' data-toggle='collapse' aria-expanded='false'>"
                 + bulbSection
                 + "</a>";
 
             var fooDiv = "<div id='" + questionId + "' class='collapse'>"
-                + "<div class='card card-body'>"
+                + "<div class='card card-body " + tableClass + "'>"
                 + "<i>" + responseText + "</i>"
                 + "</div>"
                 + "</div>"

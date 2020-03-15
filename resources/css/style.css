@@ -200,6 +200,9 @@ p.question{
     
 }
 
+figcaption{
+  text-align: left;
+}
 
 /* LOADER */
 .loader {
