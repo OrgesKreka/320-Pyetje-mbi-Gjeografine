@@ -58,7 +58,7 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" >
                 <button class="btn btn-primary" id="menu-toggle">
                     <i class="fas fa-arrow-left" id="sidebar-icon"></i>
                 </button>
@@ -68,7 +68,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0 justify-content-center">
                         <li class="nav-item">
@@ -226,7 +226,8 @@
             + fooDiv
             + "</div>";
 
-        contentString += questionDiv;
+        //contentString += questionDiv;
+        return questionDiv;
     }
 
     function createTableResponse(jsonResponse) {
@@ -293,27 +294,35 @@
             var partId = 1;
             content.Permbajtja.forEach(element => {
 
-                var foo = '<li>'
+                var sideBarMenuLink = '<li>'
                     + "<a href='#pjesa" + partId + "' class='dropdown-toggle list-group-item list-group-item-action bg-light' data-toggle='collapse' aria-expanded='false'>" + element.Pjesa + "</a>"
                     + "<ul class='collapse list-unstyled' id='pjesa" + partId + "'>";
-
+                
                 partId++;
 
                 element.Kapitujt.forEach(chapter => {
 
-                    foo += "<li>"
-                        + "<a href='#'>" + chapter.Kapitulli + "</a>";
-                    + "</li>";
+                    var chapterDiv = "<div id='chapter-" + partId + '-' + chapter.NrKapitulli +  "' class='border border-success rounded'>"
+                                   + "<h5 class='card-title'>"  + chapter.Kapitulli + "</h5>"
+                                   + "<hr />";
+
+
+                    sideBarMenuLink += "<li>"
+                        + "<a href='#chapter-" + partId + '-' + chapter.NrKapitulli + "'>" + chapter.Kapitulli + "</a>";
+                        + "</li>";
 
                     chapter.Pyetjet.forEach(question => {
-                        createQuestionDiv(question);
+                       chapterDiv += createQuestionDiv(question);
                     });
+
+                    chapterDiv += "</div>" + "<br/>";
+                    contentString += chapterDiv;
                 });
 
-                foo += "</ul>";
-                foo += "</li>";
+                sideBarMenuLink += "</ul>";
+                sideBarMenuLink += "</li>";
 
-                sidebarContent += foo;
+                sidebarContent += sideBarMenuLink;
             });
 
             $('.sidebar-content').append(sidebarContent);

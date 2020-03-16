@@ -8,7 +8,7 @@
   overflow-x: hidden;
 }
 
-#book-content{
+#book-content, .border{
   padding: 10px;
 }
 #menu-toggle{
