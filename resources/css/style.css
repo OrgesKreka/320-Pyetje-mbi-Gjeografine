@@ -1,5 +1,8 @@
 body{
   font-family: 'Baloo Chettan 2', cursive;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  padding: 20px;
 }
 
 .no-gutters{
@@ -75,7 +78,8 @@ a:focus {
 }
 
 @media screen and (max-width: 800px) {
-  #sidebar{padding-top: 50%;}
+  #sidebar{padding-top: 40%;}
+  #content{padding-top: 50px;}
   }
 
 #sidebar.active {
@@ -196,11 +200,9 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
-    top: 0;
     right: 0;
 }
 

@@ -25,32 +25,35 @@
 </head>
 
 <body>
-    <div class="wrapper">
+
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+                <span>Përmbajtja</span>
+            </button>
+
+            <h1><b>320 pyetje mbi Gjeografinë</b></h1>
+
+            <div class="d-flex flex-row order-2 order-lg-3">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link px-2"
+                            href="https://github.com/OrgesKreka/320-Pyetje-mbi-Gjeografine" target="_blank"
+                            title="Projekti në Github"><span class="fab fa-github"></span></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/orges.kreka"
+                            target="_blank" title="Profili im në facebook"><span
+                                class="fab fa-facebook"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <main role="main" class="container">
 
         <!-- Page Content -->
         <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Përmbajtja</span>
-                    </button>
-
-                    <h1><b>320 pyetje mbi Gjeografinë</b></h1>
-
-                    <div class="d-flex flex-row order-2 order-lg-3">
-                        <ul class="navbar-nav flex-row">
-                            <li class="nav-item"><a class="nav-link px-2"
-                                    href="https://github.com/OrgesKreka/320-Pyetje-mbi-Gjeografine" target="_blank"
-                                    title="Projekti në Github"><span class="fab fa-github"></span></a></li>
-                            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/orges.kreka"
-                                    target="_blank" title="Profili im në facebook"><span
-                                        class="fab fa-facebook"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
 
             <br />
             <br />
@@ -66,7 +69,13 @@
 
             <br />
 
-            <div id="book-content"> </div>
+            <div id="book-content" > </div>
+
+            <footer>
+                <div class="container">
+                    <div class="text-muted"> <center> &copy; Copyright 2020 </center> </div>
+                </div>
+            </footer>
         </div>
 
         <!-- Sidebar -->
@@ -98,10 +107,10 @@
                 </ul>
             </nav>
         </div>
-    </div>
 
     <!-- Dark overlay element -->
     <div class="overlay"></div>
+    </main>
 
     <script>
 
